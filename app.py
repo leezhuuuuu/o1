@@ -92,7 +92,7 @@ def main():
     st.markdown("""
     This is an early prototype of using prompting to create o1-like reasoning chains to improve output accuracy. It is not perfect and accuracy has yet to be formally evaluated. It is powered by Groq so that the reasoning step is fast!
                 
-    Open source [repository here](https://github.com/bklieger-groq)
+    Original repository [here](https://github.com/bklieger-groq), forked repository [here](https://github.com/leezhuuuuu/o1)
     """)
     
     # 初始化会话状态变量
