@@ -133,9 +133,11 @@ async function handleRequest(request) {
         <title>AI Query Interface</title>
         <script src="https://cdn.tailwindcss.com"></script>
       </head>
-      <body class="bg-gray-100 p-8">
-        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl p-6">
-          <h1 class="text-2xl font-bold mb-4">AI Query Interface</h1>
+      <body class="bg-gray-100 p-8 transition-colors duration-200">
+        <div id="container" class="max-w-5xl mx-auto bg-white rounded-xl shadow-md overflow-hidden p-6 transition-colors duration-200">
+          <div class="flex justify-between items-center mb-4">
+            <h1 class="text-2xl font-bold text-gray-900">AI Query Interface</h1>
+          </div>
           <form id="queryForm" class="space-y-4">
             <div>
               <label for="apiUrl" class="block text-sm font-medium text-gray-700">API URL:</label>
