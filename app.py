@@ -6,7 +6,7 @@ import requests
 
 # 配置变量
 DEFAULT_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-DEFAULT_MODEL = "llama-3.1-70b-versatile"
+DEFAULT_MODEL = "llama-3.2-90b-text-preview"
 
 def make_api_call(messages, max_tokens, is_final_answer=False):
     for attempt in range(3):
@@ -87,7 +87,7 @@ Example of a valid JSON response:```json
 def main():
     st.set_page_config(page_title="g1 prototype", page_icon="🧠", layout="wide")
     
-    st.title("g1: Using Llama-3.1 70b on Groq to create o1-like reasoning chains")
+    st.title("g1: Using Llama-3.2-90b-text-preview on Groq to create o1-like reasoning chains")
     
     st.markdown("""
     This is an early prototype of using prompting to create o1-like reasoning chains to improve output accuracy. It is not perfect and accuracy has yet to be formally evaluated. It is powered by Groq so that the reasoning step is fast!
