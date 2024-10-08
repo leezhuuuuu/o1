@@ -1,6 +1,6 @@
 # o1 思维过程模拟器
 
-这是一个模拟 GPT-4o1 思维过程的项目，基于 [bklieger-groq 的 g1-prototype](https://github.com/bklieger-groq/g1) 进行改进和扩展。项目包含两个主要部分：Streamlit 应用和 Cloudflare Worker。
+这是一个模拟 GPT-4o1 思维过程的项目，基于 [bklieger-groq 的 g1](https://github.com/bklieger-groq/g1) 进行改进和扩展。项目包含两个主要部分：Streamlit 应用和 Cloudflare Worker。
 
 ## 项目简介
 
