@@ -8,7 +8,7 @@
 
 ## 试用链接
 
-[Streamlit 演示](https://o1s.leez.tech)  
+[Streamlit 演示](https://leezhuuu-o1.hf.space)  
 [Cloudflare Worker 演示](https://o1.leez.tech)
 
 ## Streamlit 应用
